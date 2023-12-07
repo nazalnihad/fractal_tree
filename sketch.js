@@ -13,9 +13,8 @@ function draw() {
     stroke(255);
     strokeWeight(2);
 
-    // Adjust canvas position and size
     translate(width * 0.5, height);
-    branch(height / 3.25); // Adjust the initial length based on the smaller dimension
+    branch(height / 3.25); // adjust the initial length based on the smaller dimension
 }
 
 function branch(len) {
